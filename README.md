@@ -1,1 +1,1 @@
-Sample Test Application
+Sample Test Application for Practice
