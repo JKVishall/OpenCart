@@ -4,3 +4,4 @@
 /.metadata
 /logs/*
 /.settings
+/test-output
