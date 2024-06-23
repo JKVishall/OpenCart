@@ -27,7 +27,7 @@ public class TC_001_AccountRegistrationTest extends BaseClass{
 		logger.info("Providing user info");
 		regpage.setFirstName("John");
 		regpage.setLastName("Cena");
-		regpage.setEmail("johncessssnasCHANGErssrsslossstles"+"@gmail.com");// randomly generated the email
+		regpage.setEmail("HardycessssnasCHANGErssrsslossstles"+"@gmail.com");// randomly generated the email
 		regpage.setTelephone("112");
 		
 		
