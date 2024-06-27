@@ -22,7 +22,7 @@ public class BaseClass {
 	public Logger logger; //Log4j
 	public Properties p;
 	
-	@BeforeClass
+	@BeforeClass(groups = {"Sanity","Regression","Master"})
 	@Parameters({"os","browser"})
 	public void setup(String os, String browser) throws Exception
 	//public void setup() throws Exception
@@ -54,7 +54,7 @@ public class BaseClass {
 		
 	}
 	
-	@AfterClass
+	@AfterClass(groups= {"Sanity","Regression","Master"})
 	public void tearDown()
 	{
 		driver.close();
