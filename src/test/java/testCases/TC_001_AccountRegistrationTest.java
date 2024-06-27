@@ -10,7 +10,7 @@ import testBase.BaseClass;
 public class TC_001_AccountRegistrationTest extends BaseClass{
 	
 	
-	@Test
+	@Test(groups="Sanity")
 	public void verify_account_registration() throws Exception
 	{
 		try {
